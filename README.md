@@ -1,5 +1,10 @@
 # steam_db
-![Contributors](https://img.shields.io/github/contributors/Bea-Araujo/steam_db?style=plastic)
+<img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016"/> 
+
+![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)
+
+<img src="https://github.com/Bea-Araujo.png" style='height:2em'/> <img src="https://github.com/calinafischer.png" style='height:2em'/> <img src="https://github.com/JoaoV1821.png" style='height:2em'/> <img src="https://github.com/vgcgabe.png" style='height:2em'/>
+
 
 ## Descrição
 
