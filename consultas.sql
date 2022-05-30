@@ -8,13 +8,37 @@ order by average_playtime desc limit 10;
 SELECT name, average_playtime from steam_info
 order by average_playtime asc limit 10; 
 
-# 10 mais avaliados
-SELECT name, positive_ratings from steam_info
-order by positive_ratings desc limit 10;
+# 10 melhor avaliados
+SELECT 
+	  appi, 
+    name, 
+    developer, 
+    publisher,
+    price,
+    positive_ratings,
+    negative_ratings,
+    positive_ratings/(positive_ratings + NEGATIVE_RATINGS) * 100 as positive_percentage,
+    negative_ratings/(positive_ratings + NEGATIVE_RATINGS) * 100 as negative_percentage
+FROM projeto_final.steam2014_2016
+WHERE negative_ratings > 100
+ORDER BY positive_percentage DESC
+Limit 10;
 
-# 10 menos avaliados
-SELECT name, positive_ratings from steam_info
-order by positive_ratings asc limit 10;
+# 10 pior avaliados
+SELECT 
+	appi, 
+    name, 
+    developer, 
+    publisher,
+    price,
+    positive_ratings,
+    negative_ratings,
+    positive_ratings/(positive_ratings + NEGATIVE_RATINGS) * 100 as positive_percentage,
+    negative_ratings/(positive_ratings + NEGATIVE_RATINGS) * 100 as negative_percentage
+FROM projeto_final.steam2014_2016
+WHERE negative_ratings > 100
+ORDER BY negative_percentage DESC
+Limit 20;
 
 # 10 mais avaliados dos jogos gratuitos
 SELECT name, positive_ratings, price from steam_info
