@@ -19,9 +19,10 @@ O banco de dados foi tratado para que pudessem ser feitas análises para solucio
   <li>Quais os 10 pior avaliados?</li>
   <li>Quais os 10 melhor avaliados e gratuitos?</li>
   <li>Quais os 10 jogos mais caros?</li>
-  <li>Qual os 10 desenvolvedores melhor avaliados?</li>
-  <li>Qual os 10 desenvolvedores pior avaliados?</li>
+  <li>Quais os 20 desenvolvedores com o maior número de lançamentos?</li>
+  <li>Quais os 10 desenvolvedores com o maior tempo médio de jogo?</li>
   <li>Quantos jogos foram lançados em cada ano no período de 2014-2019?</li>
+  <li>Qual a estimativa de quanto foi adquirido por desenvolvedor com a venda dos jogos?</li>
 </ol>
 
 ### Instruções para contribuidores:
@@ -44,6 +45,7 @@ O banco de dados foi tratado para que pudessem ser feitas análises para solucio
 | 4 | Quais os 10 pior avaliados? | Respondida |
 | 5 | Quais os 10 melhor avaliados e gratuitos? | Respondida |
 | 6 | Quais os 10 jogos mais caros? | Respondida |
-| 7 | Qual os 10 desenvolvedores melhor avaliados? | PENDING |
-| 8 | Qual os 10 desenvolvedores pior avaliados? | PENDING |
+| 7 | Quais os 20 desenvolvedores com o maior número de lançamentos? | PENDING |
+| 8 | Quais os 10 desenvolvedores com o maior tempo médio de jogo? | PENDING |
 | 9 | Quantos jogos foram lançados em cada ano no período de 2014-2019? | PENDING |
+| 10 | Qual a estimativa de quanto foi adquirido por desenvolvedor com a venda dos jogos? | PENDING |
