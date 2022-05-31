@@ -55,6 +55,9 @@ WHERE average_playtime>0
 ORDER BY price desc
 limit 10
 
-
+# 10 jogos gratuitos mais jogados
+SELECT * FROM  projeto_final.steam
+WHERE price=0
+ORDER BY average_playtime desc
 
 
