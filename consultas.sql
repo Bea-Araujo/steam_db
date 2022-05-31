@@ -49,3 +49,12 @@ order by positive_ratings desc limit 10;
 SELECT name, price from steam_info
 order by price desc limit 10;
 
+# 10 jogos pagos mais jogados
+SELECT * FROM  projeto_final.steam
+WHERE average_playtime>0
+ORDER BY price desc
+limit 10
+
+
+
+
